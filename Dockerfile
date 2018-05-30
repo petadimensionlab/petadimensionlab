@@ -19,10 +19,14 @@ RUN apt-get clean all && \
     apt-get install -y  \
         autotools-dev   \
         automake        \
+        bzip2           \
+        ca-certificates \
         cmake           \
         curl            \
+        fonts-liberation \
         grep            \
         sed             \
+        sudo            \
         dpkg            \
         fuse            \
         git             \
@@ -32,7 +36,7 @@ RUN apt-get clean all && \
         build-essential \
         pkg-config      \
         python3          \
-	python-dev      \
+    python-dev      \
         python3-pip      \
         bzip2           \
         ca-certificates \
@@ -40,6 +44,7 @@ RUN apt-get clean all && \
         libxext6        \
         libsm6          \
         libxrender1     \
+        locales         \
         git             \
         mercurial       \
         subversion      \
